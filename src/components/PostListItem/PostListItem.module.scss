@@ -1,0 +1,77 @@
+@import '../../colors.scss';
+
+$borderColor: #000;
+$focusColor: lightblue;
+$backgroundColor: lightgrey;
+
+.postItem {
+    margin: 7px;
+    padding: 10px 8px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgb(89 102 132 / 6%), 0 8px 24px rgb(89 102 132 / 12%);
+    max-height: 300px;
+    
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        // TODO
+        height: 200px;
+    }
+
+    &__post {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__link {
+        color: #000;
+        text-decoration: none;
+    }
+
+    &__title {
+        font-weight: 900;
+        font-size: 24px;
+        
+    }
+
+    &__body {
+        margin-top: 5px;
+        font-size: 14px;
+        // color: $backgroundColor;
+        color: #808080;
+        max-height: 150px;
+        overflow: hidden;
+    }
+
+    &__createdAt {    
+        margin-top: 10px;    
+        font-size: 12px;
+        display: flex;
+        justify-content: end;
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+
+        &_btn {
+            border-radius: 20px;
+            width: 25px;
+            height: 25px;
+
+            cursor: pointer;
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

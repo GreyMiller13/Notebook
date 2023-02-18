@@ -1,0 +1,31 @@
+$borderColor: #000;
+$focusColor: lightblue;
+$backgroundColor: lightgrey;
+
+.posts_list__main_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px solid $borderColor;
+    border-radius: 10px;
+}
+
+.posts_list__item {
+    margin-top: 5px;
+    border: 1px solid $borderColor;
+    background-color: darkgray;
+}
+
+.posts {
+    display: grid;
+    gap: 15px 10px;
+    grid-template-columns: repeat(3, 1fr);
+
+    @media screen and (max-width: 1200px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+    }
+}

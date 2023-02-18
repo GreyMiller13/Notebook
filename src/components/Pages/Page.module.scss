@@ -1,0 +1,39 @@
+.post {
+    padding: 10px;
+
+    &_header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_title {
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    &_button {
+        border: 1px solid black;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.2);
+            background-color: lightblue;
+        }
+    }
+
+    &_body {
+        margin-top: 10px;
+    }
+    &_created {
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+

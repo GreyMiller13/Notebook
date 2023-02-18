@@ -1,0 +1,79 @@
+@import '../../colors.scss';
+
+$borderColor: #000;
+$focusColor: lightblue;
+$backgroundColor: lightgrey;
+
+.AddPost_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: #778899	;
+    background-color: #333;
+    padding: 0 10px;
+    border-radius: 10px 10px 0px 0px;
+
+    &__title {
+        font-size: 30px;
+        font-weight: 900;
+        color: #fff;
+    }
+
+
+    &__input, &__textarea {
+        margin: 5px 5px;
+        width: 800px;
+        height: 40px;
+        border: 1px solid $borderColor;
+        border-radius: 10px;
+        padding: 5px;
+        transform: scale(1);
+        transition: all 500ms ease-in-out;
+
+        @media screen and (max-width: 1100px) {
+            width: 600px;
+        }
+
+        @media screen and (max-width: 800px) {
+            width: 400px;
+        }
+    }
+
+    &__input:focus, &__textarea:focus {
+        background-color: $focusColor;
+        transform: scale(1.1);
+        transition: transform 500ms ease-in-out;
+    }
+
+    &__textarea:focus {
+        height: 10vh;
+        transition: all 1000ms ease;
+    }
+
+    &__input:focus {
+        z-index: 1;
+    }
+
+    &__button {
+        margin: 5px 5px;
+        width: 80px;
+        height: 40px;
+        border: 1px solid $borderColor;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 500ms ease-in-out;
+        //background-color: $focusColor;
+
+        P {
+            font-size: 15px;
+        }
+    }
+
+    &__button:hover {
+        box-shadow: #696969 3px 3px 5px;
+        background-color: $focusColor;
+        
+    }
+    
+}

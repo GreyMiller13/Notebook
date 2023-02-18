@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "title": "Post 1",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi eius mollitia, iure quod deserunt accusantium accusamus natus ipsam maiores tempora repellat velit architecto illum impedit vitae hic ratione sequi?",
+      "userId": 1,
+      "createdAt": "2023-02-02T16:21:19.066Z",
+      "id": 15
+    },
+    {
+      "title": "Post 2",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae praesentium autem facere. Dolores dignissimos sapiente facere nostrum inventore. Aperiam omnis magnam voluptates libero molestiae veniam suscipit distinctio vitae voluptatum! A recusandae necessitatibus natus corporis aliquam voluptas ex autem officia.",
+      "userId": 1,
+      "createdAt": "2023-02-06T08:13:48.383Z",
+      "id": 16
+    },
+    {
+      "title": "Post 3",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, odit ea? Porro repellat enim voluptatem voluptate reprehenderit eius, ex aperiam veritatis aliquid dolor rem quisquam harum culpa voluptates corporis omnis repudiandae aliquam placeat? Laudantium pariatur ullam rerum minima cumque, officiis deleniti atque ratione dolore ipsum dicta suscipit expedita dolorem, voluptatum eaque voluptate est. Eius numquam ullam ipsam debitis quaerat maxime culpa eligendi incidunt inventore impedit quidem laboriosam deleniti ipsa optio quis reiciendis dolor aliquam, quo consequatur fugiat ducimus! Repudiandae minima nihil totam voluptatum magni unde odit. Odit obcaecati, nemo repellendus sequi est, nobis, facilis sint nihil maiores porro quis. Maiores.",
+      "userId": 1,
+      "createdAt": "2023-02-06T08:14:13.830Z",
+      "id": 17
+    },
+    {
+      "title": "Post 4",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure accusamus eaque repudiandae adipisci a minima fugiat necessitatibus animi voluptates autem quia, vel, numquam nostrum deserunt nobis corporis commodi nemo corrupti tempora error vitae delectus cupiditate pariatur! Odio temporibus, ipsum maxime at voluptates nihil quibusdam quos, quam officia possimus corrupti quia provident aspernatur iusto sed dignissimos excepturi deleniti itaque assumenda nemo quod. Nisi, consequatur eaque. Dignissimos non omnis repudiandae. Eaque deserunt impedit, numquam minima odit quod consequuntur et, sed, maxime quaerat accusantium nesciunt ea laborum mollitia dicta sit! Totam esse ducimus repellat fugiat, perspiciatis sapiente illum sed vero incidunt alias aliquid eligendi minima aperiam eaque enim error, ipsa voluptatem voluptas quae corrupti qui. Deleniti autem, voluptate asperiores ea ut veniam blanditiis voluptates delectus tempore placeat nemo impedit ab nesciunt, nisi similique dolore quisquam iusto totam voluptatibus dicta explicabo at pariatur rerum. Corrupti dicta tempore ipsum porro rem atque. Laboriosam iusto aliquid laudantium. Quos voluptates reiciendis consequuntur amet laboriosam nostrum facilis dolores, commodi distinctio reprehenderit harum est architecto animi obcaecati adipisci mollitia, exercitationem vel recusandae blanditiis quod beatae nobis! Labore ea soluta commodi, voluptatibus quaerat rem unde cum suscipit aliquid maiores deleniti vel pariatur mollitia magnam. Veniam molestias totam eum quia in.",
+      "userId": 1,
+      "createdAt": "2023-02-06T12:57:13.951Z",
+      "id": 22
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
